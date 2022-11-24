@@ -63,6 +63,7 @@ export class MovieController {
 		return this.movieService.byId(id)
 	}
 
+
 	@Post()
 	@HttpCode(200)
 	@Auth('admin')
